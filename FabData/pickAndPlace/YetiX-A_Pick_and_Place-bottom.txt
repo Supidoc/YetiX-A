@@ -1,0 +1,14 @@
+### Footprint positions - created on 2026-04-01T00:37:25 ###
+### Printed by KiCad version 10.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                        PosX       PosY       Rot  Side
+C114      100n            C_0603                     152.9620   -99.3300  -90.0000  bottom
+C115      100n            C_0603                     152.9620  -102.6300   90.0000  bottom
+C116      100n            C_0603                     144.4620  -104.8800  180.0000  bottom
+R1        0               R_0603_DNP                 148.6620  -101.2300  -90.0000  bottom
+R2        0               R_0603                     148.5620   -97.3300   90.0000  bottom
+U1        M95256-DFMN6TP  SOIC-8_3.9x4.9mm_P1.27mm   145.0340  -100.3300  -90.0000  bottom
+U106      1051620001      1051620001                 133.3720  -100.3300   90.0000  bottom
+U107      TJA1042BT/0Z    SOT96-1                    156.6620   -99.1300   90.0000  bottom
+## End

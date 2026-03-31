@@ -38,3 +38,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+Fab_JLC/
+FabData_JLCPCB.kicad_jobset
+.history/
+fabrication-toolkit-options.json
+ibom.config.ini
+production/
