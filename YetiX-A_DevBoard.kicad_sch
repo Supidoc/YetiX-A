@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "YetiX-A Devboard")
-		(date "2026-03-25")
-		(rev "0.0.1")
+		(date "2026-04-01")
+		(rev "0.0.2")
 		(company "SuperdocHD")
 	)
 	(lib_symbols
@@ -24,6 +24,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603MRX5R6BB106.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -200,61 +255,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10u"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603MRX5R6BB106.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -266,7 +266,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -352,6 +352,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2u2"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R6BB225.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -528,61 +583,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2u2"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R6BB225.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -594,7 +594,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -680,6 +680,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22u"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC1206KKX5R6BB226.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -856,61 +911,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22u"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC1206KKX5R6BB226.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -922,7 +922,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_1206 "
+			(property "ki_fp_filters" "passive:C_1206"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1008,6 +1008,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB104.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -1184,61 +1239,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100n"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB104.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -1250,7 +1250,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1336,6 +1336,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB105.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -1512,61 +1567,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1u"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB105.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -1578,7 +1578,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1664,6 +1664,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4u7"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX5R7BB475.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -1840,61 +1895,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4u7"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX5R7BB475.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -1906,7 +1906,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1992,6 +1992,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1n"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R9BB103.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -2168,61 +2223,6 @@
 					)
 				)
 			)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1n"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R9BB103.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MLCC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "C capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -2234,7 +2234,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2307,12 +2307,393 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "db:capacitor/01.018.0025.0005"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1" "digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR#" "CC0603KRX7R0BB101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "CC-X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1#" "311-4048-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-04-01 10:52:36"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "100V 10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Remarks" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100p"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passiveDS_CC0603KRX7R0BB101.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "passive:C_0603 "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "capacitor/01.018.0025.0005_1_1"
+				(rectangle
+					(start -1.27 0.762)
+					(end 1.27 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 -0.254)
+					(end 1.27 -0.762)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "db:connector/09.007.0032.0001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1051620001"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "connector:1051620001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_MOLEX_1051620001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Rating" ""
 				(at 0 0 0)
 				(show_name no)
@@ -2489,59 +2870,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 0 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1051620001"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connector:1051620001"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_MOLEX_1051620001.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Micro SD Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "MicroSD "
 				(at 0 0 0)
 				(show_name no)
@@ -2553,7 +2881,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:1051620001 "
+			(property "ki_fp_filters" "connector:1051620001"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2889,6 +3217,62 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "USB4105GFA120"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "connector:GCT_USB4105GFA120"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_GCT_usb4105.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "16 Pin USB-C Receptecal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -3065,62 +3449,6 @@
 					)
 				)
 			)
-			(property "Reference" "J"
-				(at 0 27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "USB4105GFA120"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "connector:GCT_USB4105GFA120"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_GCT_usb4105.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "16 Pin USB-C Receptecal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "usb receptecal"
 				(at 0 0 0)
 				(show_name no)
@@ -3132,7 +3460,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:GCT_USB4105GFA120 "
+			(property "ki_fp_filters" "connector:GCT_USB4105GFA120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3649,6 +3977,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FTS-105-01-F-DV-P-TR"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "connector:FTS-105-01-X-DV"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_SAMTECH_FTS.pdf"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2x05 Connector often used for JTAG & SWD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -3825,59 +4206,6 @@
 					)
 				)
 			)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FTS-105-01-F-DV-P-TR"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connector:FTS-105-01-X-DV"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_SAMTECH_FTS.pdf"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2x05 Connector often used for JTAG & SWD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "SWD JTAG"
 				(at 0 0 0)
 				(show_name no)
@@ -3889,7 +4217,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:FTS-105-01-X-DV "
+			(property "ki_fp_filters" "connector:FTS-105-01-X-DV"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4343,6 +4671,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN HEADER VERT 21POS 2.54MM"
+				(at 1.27 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "connector:PinHeader_1x21_P2.54mm_Vertical"
+				(at 0 41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_WUERTH_WR-PHD.pdf"
+				(at 0 41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1x21 Pin Header Male"
+				(at 1.27 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Rating" ""
 				(at 0 0 0)
 				(show_name no)
@@ -4519,59 +4900,6 @@
 					)
 				)
 			)
-			(property "Reference" "J"
-				(at 1.27 29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CONN HEADER VERT 21POS 2.54MM"
-				(at 1.27 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connector:PinHeader_1x21_P2.54mm_Vertical"
-				(at 0 41.91 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_WUERTH_WR-PHD.pdf"
-				(at 0 41.91 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1x21 Pin Header Male"
-				(at 1.27 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "Pinheader"
 				(at 0 0 0)
 				(show_name no)
@@ -4583,7 +4911,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:PinHeader_1x21_P2.54mm_Vertical "
+			(property "ki_fp_filters" "connector:PinHeader_1x21_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5536,6 +5864,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FY0800027"
+				(at 3.175 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "crystal:FY0800027"
+				(at -0.635 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}crystal/DS_Diodes_Incorporates_FY.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8 Mhz Oscillator"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -5712,61 +6095,6 @@
 					)
 				)
 			)
-			(property "Reference" "Y"
-				(at 3.175 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FY0800027"
-				(at 3.175 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "crystal:FY0800027"
-				(at -0.635 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}crystal/DS_Diodes_Incorporates_FY.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "8 Mhz Oscillator"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "resonator crystal"
 				(at 0 0 0)
 				(show_name no)
@@ -5778,7 +6106,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "crystal:FY0800027 "
+			(property "ki_fp_filters" "crystal:FY0800027"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6073,6 +6401,63 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 6.35 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "NSP4201MR6T1G"
+				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "package:TSOP-6"
+				(at -15.24 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_ONSEMI_NSP4201MR6T1G.PDF"
+				(at -15.24 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "TVS Diode for High Speed Signal Lines"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -6249,63 +6634,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 6.35 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "NSP4201MR6T1G"
-				(at -6.35 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "package:TSOP-6"
-				(at -15.24 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_ONSEMI_NSP4201MR6T1G.PDF"
-				(at -15.24 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "TVS Diode for High Speed Signal Lines"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "TVS ESD"
 				(at 0 0 0)
 				(show_name no)
@@ -6317,7 +6645,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:TSOP-6 "
+			(property "ki_fp_filters" "package:TSOP-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6996,6 +7324,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MSS1P3L-M3/89A"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "diode:DIODE_MSMP"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_VISHAY_mss1p3l.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shottky Diode"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -7172,61 +7555,6 @@
 					)
 				)
 			)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MSS1P3L-M3/89A"
-				(at -7.112 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "diode:DIODE_MSMP"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_VISHAY_mss1p3l.pdf"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Shottky Diode"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "D diode"
 				(at 0 0 0)
 				(show_name no)
@@ -7238,7 +7566,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:DIODE_MSMP "
+			(property "ki_fp_filters" "diode:DIODE_MSMP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7340,6 +7668,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "diode:D_0603"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-C190GKT.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Green LED"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -7516,61 +7899,6 @@
 					)
 				)
 			)
-			(property "Reference" "D"
-				(at 0 3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "Green"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "diode:D_0603"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-C190GKT.pdf"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Green LED"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "D Diode LED"
 				(at 0 0 0)
 				(show_name no)
@@ -7582,7 +7910,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:D_0603 "
+			(property "ki_fp_filters" "diode:D_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7708,6 +8036,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Orange"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "diode:D_0603"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-C190KFKT.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Orange LED"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -7884,61 +8267,6 @@
 					)
 				)
 			)
-			(property "Reference" "D"
-				(at 0 3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "Orange"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "diode:D_0603"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-C190KFKT.pdf"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Orange LED"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "D Diode LED"
 				(at 0 0 0)
 				(show_name no)
@@ -7950,7 +8278,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:D_0603 "
+			(property "ki_fp_filters" "diode:D_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8069,6 +8397,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TJA1042BT/0Z"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "package:SOT96-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_NXP_TJA1042.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CAN Transceiver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -8245,59 +8626,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TJA1042BT/0Z"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "package:SOT96-1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_NXP_TJA1042.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAN Transceiver"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "CAN Transceiver"
 				(at 0 0 0)
 				(show_name no)
@@ -8309,7 +8637,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:SOT96-1 "
+			(property "ki_fp_filters" "package:SOT96-1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8489,6 +8817,63 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 8.89 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "RCLAMP0854P.TCT"
+				(at -7.62 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "package:UFDFN06_1P6X1P6"
+				(at -15.24 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_SEMTECH_RClamp0854P.pdf"
+				(at -15.24 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "USB-Clamping Array"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -8665,63 +9050,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 8.89 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "RCLAMP0854P.TCT"
-				(at -7.62 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "package:UFDFN06_1P6X1P6"
-				(at -15.24 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_SEMTECH_RClamp0854P.pdf"
-				(at -15.24 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "USB-Clamping Array"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "tvs diode usb"
 				(at 0 0 0)
 				(show_name no)
@@ -8733,7 +9061,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6 "
+			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9422,6 +9750,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M95256-DFMN6TP"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "package:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_ST_M95256-DF.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SPI EEPROM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -9598,59 +9979,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "M95256-DFMN6TP"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "package:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_ST_M95256-DF.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SPI EEPROM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "EEPROM "
 				(at 0 0 0)
 				(show_name no)
@@ -9662,7 +9990,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:SOIC-8_3.9x4.9mm_P1.27mm "
+			(property "ki_fp_filters" "package:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9845,6 +10173,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 1.27 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "120"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:L_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_MURATA_ BLM15_SN.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "120Ohm Ferrite Bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -10021,61 +10404,6 @@
 					)
 				)
 			)
-			(property "Reference" "L"
-				(at 1.27 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "120"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:L_0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_MURATA_ BLM15_SN.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "120Ohm Ferrite Bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "ferrite bead"
 				(at 0 0 0)
 				(show_name no)
@@ -10087,7 +10415,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_0402 "
+			(property "ki_fp_filters" "passive:L_0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10393,6 +10721,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 1.27 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "330"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:L_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_TDK_MPZ.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "330Ohm Power Line Ferrite Bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -10569,61 +10952,6 @@
 					)
 				)
 			)
-			(property "Reference" "L"
-				(at 1.27 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "330"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:L_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_TDK_MPZ.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330Ohm Power Line Ferrite Bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "ferrite bead"
 				(at 0 0 0)
 				(show_name no)
@@ -10635,7 +10963,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_0603 "
+			(property "ki_fp_filters" "passive:L_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10934,6 +11262,63 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 0 48.006 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "MCXA156VLH"
+				(at 0 -48.26 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "mcu:QFP50P1200X1200X160-64N"
+				(at 49.53 -84.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}mcu/DS_MCXAP100M96FS6.pdf"
+				(at 49.53 -184.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "ARM Cortex-M33F MCX A Microcontroller IC 32-Bit 96MHz 1MB (1M x 8) FLASH 64-LQFP (10x10)"
+				(at 0 -55.372 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Rating" ""
 				(at 0 0 0)
 				(show_name no)
@@ -11110,63 +11495,6 @@
 					)
 				)
 			)
-			(property "Reference" "IC"
-				(at 0 48.006 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "MCXA156VLH"
-				(at 0 -48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "mcu:QFP50P1200X1200X160-64N"
-				(at 49.53 -84.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}mcu/DS_MCXAP100M96FS6.pdf"
-				(at 49.53 -184.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "ARM Cortex-M33F MCX A Microcontroller IC 32-Bit 96MHz 1MB (1M x 8) FLASH 64-LQFP (10x10)"
-				(at 0 -55.372 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "MCU ARM M33F"
 				(at 0 0 0)
 				(show_name no)
@@ -11178,7 +11506,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "mcu:QFP50P1200X1200X160-64N "
+			(property "ki_fp_filters" "mcu:QFP50P1200X1200X160-64N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12362,6 +12690,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "XC6227C331PR-G"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "package:SOT-89-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}power_ic/DS_TOREX_xc6227.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3v3 700mA LDO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -12538,61 +12921,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "XC6227C331PR-G"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "package:SOT-89-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}power_ic/DS_TOREX_xc6227.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3v3 700mA LDO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "LDO regulator"
 				(at 0 0 0)
 				(show_name no)
@@ -12604,7 +12932,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:SOT-89-5 "
+			(property "ki_fp_filters" "package:SOT-89-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12727,6 +13055,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STMPS2141STR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "package:SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}power_ic/DS_ST_STMPS2141STR.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -12903,59 +13284,6 @@
 					)
 				)
 			)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "STMPS2141STR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "package:SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}power_ic/DS_ST_STMPS2141STR.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "Current limit Power Switch"
 				(at 0 0 0)
 				(show_name no)
@@ -12967,7 +13295,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:SOT-23-5 "
+			(property "ki_fp_filters" "package:SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13096,6 +13424,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0 Ohm Jumper"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -13272,61 +13655,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0 Ohm Jumper"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor jumper"
 				(at 0 0 0)
 				(show_name no)
@@ -13338,7 +13666,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13413,6 +13741,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603_DNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0 Ohm Jumper not populated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist2#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -13589,61 +13972,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603_DNP"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0 Ohm Jumper not populated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "DNP" "DNP"
 				(at 3.302 -3.302 0)
 				(show_name no)
@@ -13665,7 +13993,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603_DNP "
+			(property "ki_fp_filters" "passive:R_0603_DNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13740,6 +14068,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -13916,61 +14299,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1k"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -13982,7 +14310,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14057,6 +14385,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -14233,61 +14616,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10k"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -14299,7 +14627,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14374,6 +14702,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -14550,61 +14933,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -14616,7 +14944,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14691,6 +15019,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -14867,61 +15250,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100k"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -14933,7 +15261,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15008,6 +15336,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "5k1"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -15184,61 +15567,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "5k1"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -15250,7 +15578,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15325,6 +15653,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "33"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -15501,61 +15884,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "33"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -15567,7 +15895,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15642,6 +15970,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "20k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
 				(at 0 0 0)
 				(show_name no)
@@ -15818,61 +16201,6 @@
 					)
 				)
 			)
-			(property "Reference" "R"
-				(at 1.27 0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "20k"
-				(at 1.27 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "passive:R_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -15884,7 +16212,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15946,6 +16274,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "db:resistor/00.018.0009.0021"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1" "digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "R_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "RC_L "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR#" "RC0805FR-0760R4L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1#" "311-60.4CRCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-04-01 11:10:26"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "125mW, 1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Remarks" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "R"
+				(at 1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "60R4"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passive:R_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "passive:R_0805 "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "resistor/00.018.0009.0021_1_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "db:switch/06.004.0029.0001"
 			(pin_names
 				(hide yes)
@@ -15955,6 +16600,60 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KMR421GULCLFS"
+				(at 1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "switch:KMR421GULCLFS"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}switch/DS_CK_kmr4.pdf"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
@@ -16131,60 +16830,6 @@
 					)
 				)
 			)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KMR421GULCLFS"
-				(at 1.27 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "switch:KMR421GULCLFS"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}switch/DS_CK_kmr4.pdf"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "Switch"
 				(at 0 0 0)
 				(show_name no)
@@ -16196,7 +16841,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "switch:KMR421GULCLFS "
+			(property "ki_fp_filters" "switch:KMR421GULCLFS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16962,8 +17607,8 @@
 		)
 	)
 	(rectangle
-		(start 299.72 170.18)
-		(end 364.49 209.55)
+		(start 281.94 167.64)
+		(end 386.08 207.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -17046,8 +17691,8 @@
 		(uuid "b4012e5c-7b81-4702-979f-7c4ddb9f21c5")
 	)
 	(rectangle
-		(start 299.72 215.9)
-		(end 377.19 259.08)
+		(start 281.94 213.36)
+		(end 359.41 256.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -17092,7 +17737,7 @@
 	)
 	(text "Micro SD Card"
 		(exclude_from_sim no)
-		(at 299.72 215.9 0)
+		(at 281.94 213.36 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -17125,7 +17770,7 @@
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
-		(at 299.72 169.926 0)
+		(at 281.94 167.386 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -17144,6 +17789,12 @@
 			(justify left bottom)
 		)
 		(uuid "f8c448f0-0e56-4313-9def-a5ffb53b75fe")
+	)
+	(junction
+		(at 346.71 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "063ac364-0c10-44da-8910-dfb642169ab3")
 	)
 	(junction
 		(at 62.23 59.69)
@@ -17368,6 +18019,12 @@
 		(uuid "956f43b9-2a33-48d0-9f98-07624c5319bd")
 	)
 	(junction
+		(at 365.76 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961327ca-43b4-457b-8e52-f1ef8fa66966")
+	)
+	(junction
 		(at 218.44 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17392,7 +18049,7 @@
 		(uuid "a14b1573-bba2-463f-8a77-3beeb02d9373")
 	)
 	(junction
-		(at 322.58 247.65)
+		(at 304.8 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a857921a-db62-492b-8163-19268d2fd947")
@@ -17458,6 +18115,12 @@
 		(uuid "c4a147b6-281a-4587-8bee-5a5f8ba641af")
 	)
 	(junction
+		(at 365.76 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c502a572-c686-45da-b025-725212f23926")
+	)
+	(junction
 		(at 218.44 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17476,6 +18139,12 @@
 		(uuid "ca10e062-0e4e-4750-9e07-634bdba5f7fb")
 	)
 	(junction
+		(at 346.71 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5765f38-db86-4098-bc89-1ea42776a6c5")
+	)
+	(junction
 		(at 238.76 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17488,10 +18157,16 @@
 		(uuid "da31d609-6934-4b35-9b2d-aeddcf229360")
 	)
 	(junction
-		(at 316.23 182.88)
+		(at 298.45 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb6fda0-d623-4e95-9558-64ea9375c0f6")
+	)
+	(junction
+		(at 365.76 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e40d3e8d-7bd6-42b7-a280-04047140283d")
 	)
 	(junction
 		(at 238.76 63.5)
@@ -17506,7 +18181,7 @@
 		(uuid "e72e4c84-6235-4456-86ec-bb1c19d45e3b")
 	)
 	(junction
-		(at 341.63 182.88)
+		(at 323.85 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8588d75-8c70-4b14-86c2-2103d9883983")
@@ -17518,7 +18193,7 @@
 		(uuid "ebe13aef-d1a7-4385-b6ec-473bb0caed4b")
 	)
 	(junction
-		(at 308.61 232.41)
+		(at 290.83 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1cfe355-f974-45ed-999d-c5b443657860")
@@ -17550,7 +18225,7 @@
 		(uuid "6101229c-9595-43d5-92ea-ade89aee062a")
 	)
 	(no_connect
-		(at 342.9 242.57)
+		(at 325.12 240.03)
 		(uuid "719ebdac-a1e6-4c63-b956-67688582cb0d")
 	)
 	(no_connect
@@ -17562,7 +18237,7 @@
 		(uuid "792d37ff-c762-46ce-a6a7-2840a6bf9c0e")
 	)
 	(no_connect
-		(at 342.9 224.79)
+		(at 325.12 222.25)
 		(uuid "7a77af8a-8908-45e3-b3c4-3ea316cc006b")
 	)
 	(no_connect
@@ -17609,7 +18284,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 234.95) (xy 342.9 234.95)
+			(xy 311.15 232.41) (xy 325.12 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17669,7 +18344,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 245.11) (xy 342.9 245.11)
+			(xy 311.15 242.57) (xy 325.12 242.57)
 		)
 		(stroke
 			(width 0)
@@ -17699,7 +18374,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 229.87) (xy 342.9 229.87)
+			(xy 311.15 227.33) (xy 325.12 227.33)
 		)
 		(stroke
 			(width 0)
@@ -17759,7 +18434,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 237.49) (xy 322.58 247.65)
+			(xy 304.8 234.95) (xy 304.8 245.11)
 		)
 		(stroke
 			(width 0)
@@ -17829,7 +18504,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 229.87) (xy 308.61 232.41)
+			(xy 290.83 227.33) (xy 290.83 229.87)
 		)
 		(stroke
 			(width 0)
@@ -17969,7 +18644,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 234.95) (xy 308.61 232.41)
+			(xy 290.83 232.41) (xy 290.83 229.87)
 		)
 		(stroke
 			(width 0)
@@ -18029,7 +18704,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 182.88) (xy 341.63 182.88)
+			(xy 313.69 180.34) (xy 323.85 180.34)
 		)
 		(stroke
 			(width 0)
@@ -18159,7 +18834,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 184.15) (xy 350.52 182.88)
+			(xy 332.74 181.61) (xy 332.74 180.34)
 		)
 		(stroke
 			(width 0)
@@ -18189,6 +18864,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 173.99) (xy 346.71 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc0bb55-c52b-4fa5-8608-c40a78b92c08")
+	)
+	(wire
+		(pts
 			(xy 191.77 238.76) (xy 212.09 238.76)
 		)
 		(stroke
@@ -18209,7 +18894,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 189.23) (xy 350.52 190.5)
+			(xy 332.74 186.69) (xy 332.74 187.96)
 		)
 		(stroke
 			(width 0)
@@ -18269,7 +18954,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 182.88) (xy 341.63 194.31)
+			(xy 323.85 180.34) (xy 323.85 191.77)
 		)
 		(stroke
 			(width 0)
@@ -18449,7 +19134,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 227.33) (xy 342.9 227.33)
+			(xy 311.15 224.79) (xy 325.12 224.79)
 		)
 		(stroke
 			(width 0)
@@ -18559,7 +19244,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 201.93) (xy 339.09 201.93)
+			(xy 323.85 199.39) (xy 321.31 199.39)
 		)
 		(stroke
 			(width 0)
@@ -18699,16 +19384,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 196.85) (xy 350.52 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a01fac9-1c39-4d8b-8a82-8acb63f4ad17")
-	)
-	(wire
-		(pts
 			(xy 252.73 106.68) (xy 273.05 106.68)
 		)
 		(stroke
@@ -18779,16 +19454,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 199.39) (xy 350.52 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed39d7c-4f99-4e5c-9166-f2b025746c68")
-	)
-	(wire
-		(pts
 			(xy 209.55 269.24) (xy 209.55 266.7)
 		)
 		(stroke
@@ -18816,6 +19481,16 @@
 			(type default)
 		)
 		(uuid "5fd1d818-3354-421f-99f7-492c7bf84f6a")
+	)
+	(wire
+		(pts
+			(xy 321.31 196.85) (xy 346.71 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610b71c0-d8c6-4e07-9222-603eeb67181d")
 	)
 	(wire
 		(pts
@@ -18919,6 +19594,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 185.42) (xy 365.76 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3b97c3-a9a9-435c-9913-9153bc4ac417")
+	)
+	(wire
+		(pts
 			(xy 215.9 123.19) (xy 215.9 125.73)
 		)
 		(stroke
@@ -18949,7 +19634,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 240.03) (xy 342.9 240.03)
+			(xy 311.15 237.49) (xy 325.12 237.49)
 		)
 		(stroke
 			(width 0)
@@ -19059,7 +19744,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 194.31) (xy 341.63 194.31)
+			(xy 321.31 191.77) (xy 323.85 191.77)
 		)
 		(stroke
 			(width 0)
@@ -19159,7 +19844,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 177.8) (xy 316.23 182.88)
+			(xy 298.45 175.26) (xy 298.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -19269,7 +19954,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 237.49) (xy 322.58 237.49)
+			(xy 325.12 234.95) (xy 304.8 234.95)
 		)
 		(stroke
 			(width 0)
@@ -19479,7 +20164,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 182.88) (xy 326.39 182.88)
+			(xy 298.45 180.34) (xy 308.61 180.34)
 		)
 		(stroke
 			(width 0)
@@ -19539,6 +20224,26 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 196.85) (xy 382.27 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f78e24-34cd-46b7-b7d5-4e2d81e4a66e")
+	)
+	(wire
+		(pts
+			(xy 341.63 173.99) (xy 341.63 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984c48be-525d-461c-b942-86371a2cd1b9")
+	)
+	(wire
+		(pts
 			(xy 326.39 99.06) (xy 341.63 99.06)
 		)
 		(stroke
@@ -19556,6 +20261,16 @@
 			(type default)
 		)
 		(uuid "99cd54dc-e754-416d-a7e3-b0a803f4ab12")
+	)
+	(wire
+		(pts
+			(xy 365.76 173.99) (xy 365.76 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4f7f1c-b05b-40b4-aa98-e4ffde9ea0eb")
 	)
 	(wire
 		(pts
@@ -19646,6 +20361,16 @@
 			(type default)
 		)
 		(uuid "a023239c-a143-4205-bbbd-d72ccdd9acba")
+	)
+	(wire
+		(pts
+			(xy 365.76 173.99) (xy 382.27 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c1f278-316e-424e-865f-6141bea471bc")
 	)
 	(wire
 		(pts
@@ -19819,7 +20544,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 247.65) (xy 342.9 247.65)
+			(xy 304.8 245.11) (xy 325.12 245.11)
 		)
 		(stroke
 			(width 0)
@@ -19969,7 +20694,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 194.31) (xy 318.77 194.31)
+			(xy 298.45 191.77) (xy 300.99 191.77)
 		)
 		(stroke
 			(width 0)
@@ -20049,7 +20774,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 182.88) (xy 341.63 177.8)
+			(xy 323.85 180.34) (xy 323.85 175.26)
 		)
 		(stroke
 			(width 0)
@@ -20059,7 +20784,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 250.19) (xy 322.58 247.65)
+			(xy 304.8 247.65) (xy 304.8 245.11)
 		)
 		(stroke
 			(width 0)
@@ -20089,7 +20814,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 201.93) (xy 318.77 201.93)
+			(xy 285.75 199.39) (xy 300.99 199.39)
 		)
 		(stroke
 			(width 0)
@@ -20109,7 +20834,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 196.85) (xy 318.77 196.85)
+			(xy 285.75 194.31) (xy 300.99 194.31)
 		)
 		(stroke
 			(width 0)
@@ -20159,13 +20884,33 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 204.47) (xy 341.63 201.93)
+			(xy 323.85 201.93) (xy 323.85 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c55ca92d-620a-4961-803c-277aece409cc")
+	)
+	(wire
+		(pts
+			(xy 346.71 173.99) (xy 365.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e397d2-c46f-44be-a4f1-7267657d51cd")
+	)
+	(wire
+		(pts
+			(xy 341.63 194.31) (xy 321.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66494a0-7372-4ea5-8e6b-0664ea829133")
 	)
 	(wire
 		(pts
@@ -20246,6 +20991,16 @@
 			(type default)
 		)
 		(uuid "cbf45af3-48d3-4e24-b6f0-1d79e816f238")
+	)
+	(wire
+		(pts
+			(xy 346.71 196.85) (xy 365.76 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc30b181-b427-40c4-a8a7-27ae8fdeca89")
 	)
 	(wire
 		(pts
@@ -20569,7 +21324,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 232.41) (xy 342.9 232.41)
+			(xy 290.83 229.87) (xy 325.12 229.87)
 		)
 		(stroke
 			(width 0)
@@ -20586,6 +21341,16 @@
 			(type default)
 		)
 		(uuid "e0ae3827-884b-4abc-99a7-d5ee5e2fbddf")
+	)
+	(wire
+		(pts
+			(xy 365.76 185.42) (xy 365.76 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35ae2a8-a44e-466f-b537-3494245741e0")
 	)
 	(wire
 		(pts
@@ -20639,7 +21404,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 182.88) (xy 316.23 194.31)
+			(xy 298.45 180.34) (xy 298.45 191.77)
 		)
 		(stroke
 			(width 0)
@@ -20649,7 +21414,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 182.88) (xy 341.63 182.88)
+			(xy 332.74 180.34) (xy 323.85 180.34)
 		)
 		(stroke
 			(width 0)
@@ -20709,7 +21474,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 199.39) (xy 318.77 199.39)
+			(xy 285.75 196.85) (xy 300.99 196.85)
 		)
 		(stroke
 			(width 0)
@@ -20746,6 +21511,16 @@
 			(type default)
 		)
 		(uuid "edba2806-0dbe-4f60-95db-75d3bc393878")
+	)
+	(wire
+		(pts
+			(xy 355.6 185.42) (xy 365.76 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3cae80-4bcd-4e69-a998-1aa818d0a05d")
 	)
 	(wire
 		(pts
@@ -20806,6 +21581,16 @@
 			(type default)
 		)
 		(uuid "f05a9219-735f-43d1-ba39-b977d021cca8")
+	)
+	(wire
+		(pts
+			(xy 365.76 194.31) (xy 365.76 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f070f160-29b5-463a-9717-91be87d71109")
 	)
 	(wire
 		(pts
@@ -20879,7 +21664,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 240.03) (xy 308.61 250.19)
+			(xy 290.83 237.49) (xy 290.83 247.65)
 		)
 		(stroke
 			(width 0)
@@ -21048,7 +21833,7 @@
 		(uuid "04334c4d-be81-493d-b49c-4d929166a7c1")
 	)
 	(label "CAN_STBY"
-		(at 303.53 201.93 0)
+		(at 285.75 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21148,7 +21933,7 @@
 		(uuid "194be0f9-451c-4cab-9798-620171c223dd")
 	)
 	(label "CAN_TXD"
-		(at 303.53 196.85 0)
+		(at 285.75 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21168,7 +21953,7 @@
 		(uuid "1c648705-cf3c-4aa2-a70a-d2b7e02af8c7")
 	)
 	(label "SPI1_MOSI"
-		(at 328.93 229.87 0)
+		(at 311.15 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21288,7 +22073,7 @@
 		(uuid "3d9a3f52-b445-42b2-81cb-966951286456")
 	)
 	(label "SD_SW"
-		(at 328.93 245.11 0)
+		(at 311.15 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21308,7 +22093,7 @@
 		(uuid "45bd8184-fb61-4dd2-b435-1715be6f9378")
 	)
 	(label "SPI1_MISO"
-		(at 328.93 240.03 0)
+		(at 311.15 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21498,7 +22283,7 @@
 		(uuid "73f8a3f7-00fb-4e92-8115-3daa246c1718")
 	)
 	(label "CAN+"
-		(at 350.52 196.85 180)
+		(at 382.27 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21518,7 +22303,7 @@
 		(uuid "75f52fd5-67c0-4e28-a228-31ed3242eb8b")
 	)
 	(label "SPI1_CS0"
-		(at 328.93 227.33 0)
+		(at 311.15 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21558,7 +22343,7 @@
 		(uuid "7f67d070-e556-4d48-bf7c-0b83fcb14f2e")
 	)
 	(label "CAN_RXD"
-		(at 303.53 199.39 0)
+		(at 285.75 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21908,7 +22693,7 @@
 		(uuid "cb3bbdb5-184c-41b2-9cdd-932e06d701c2")
 	)
 	(label "SPI1_SCK"
-		(at 328.93 234.95 0)
+		(at 311.15 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21988,7 +22773,7 @@
 		(uuid "e390ce2e-15b8-4730-8c9e-e56a1265c031")
 	)
 	(label "CAN-"
-		(at 350.52 199.39 180)
+		(at 382.27 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22507,7 +23292,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 316.23 177.8 0)
+		(at 298.45 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22518,7 +23303,7 @@
 		(fields_autoplaced yes)
 		(uuid "02bb5fb4-2b21-4c98-867d-2ad0f5bf9f4e")
 		(property "Reference" "#PWR0147"
-			(at 316.23 181.61 0)
+			(at 298.45 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22529,7 +23314,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 316.23 173.6669 0)
+			(at 298.45 171.1269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22539,7 +23324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 177.8 0)
+			(at 298.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22550,7 +23335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 177.8 0)
+			(at 298.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22561,7 +23346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 316.23 177.8 0)
+			(at 298.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24103,6 +24888,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 346.71 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e304f4-e3ea-4fa2-a1ee-fbd91abd7f50")
+		(property "Reference" "#PWR0158"
+			(at 346.71 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 206.0631 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9048bc77-332a-43c8-a1eb-c1c742eb0c49")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "db:connector/09.034.0030.0001")
 		(at 67.31 144.78 0)
 		(unit 1)
@@ -25165,6 +26029,264 @@
 		)
 	)
 	(symbol
+		(lib_id "db:resistor/00.018.0009.0021")
+		(at 365.76 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f73b317-0c8c-4e6a-b455-42820780c48d")
+		(property "Reference" "R4"
+			(at 367.284 190.5578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60R4"
+			(at 367.284 192.9821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passive:R_0805"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "resistor"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "R_0805"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "RC_L "
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "RC0805FR-0760R4L"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "311-60.4CRCT-ND"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-04-01 11:10:26"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "125mW, 1%"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 365.76 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7b7ae9a-b81d-4f4d-b48f-54583e1f0fa5")
+		)
+		(pin "1"
+			(uuid "91d3023a-e887-451d-8b25-34fdf0f98c9e")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 236.22 0)
 		(unit 1)
@@ -25316,6 +26438,264 @@
 			(project "YetiX-A_DevBoard"
 				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "db:resistor/00.018.0009.0021")
+		(at 365.76 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "255c9210-2ed5-4673-b3d7-faa95c90aa97")
+		(property "Reference" "R3"
+			(at 367.284 177.8578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60R4"
+			(at 367.284 180.2821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passive:R_0805"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "resistor"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "R_0805"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "RC_L "
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "RC0805FR-0760R4L"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "311-60.4CRCT-ND"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-04-01 11:10:26"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "125mW, 1%"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 365.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2611a71-1172-4666-9262-3e63cbbd47a3")
+		)
+		(pin "1"
+			(uuid "4912891e-0772-4e0b-92b6-9ced54d1ad2d")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -25581,7 +26961,7 @@
 	)
 	(symbol
 		(lib_id "db:capacitor/01.018.0008.0003")
-		(at 308.61 237.49 0)
+		(at 290.83 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25592,7 +26972,7 @@
 		(fields_autoplaced yes)
 		(uuid "290d4384-c413-4c51-b0c9-c5245eee8193")
 		(property "Reference" "C113"
-			(at 310.5785 236.2778 0)
+			(at 292.7985 233.7378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25603,7 +26983,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 310.5785 238.7021 0)
+			(at 292.7985 236.1621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25614,7 +26994,7 @@
 			)
 		)
 		(property "Footprint" "passive:C_1206"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25625,7 +27005,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC1206KKX5R6BB226.pdf"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25636,7 +27016,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25647,7 +27027,7 @@
 			)
 		)
 		(property "Category" "capacitor"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25658,7 +27038,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25669,7 +27049,7 @@
 			)
 		)
 		(property "Series" "CC-X5R"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25680,7 +27060,7 @@
 			)
 		)
 		(property "MFR#" "CC1206KKX5R6BB226"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25691,7 +27071,7 @@
 			)
 		)
 		(property "Rating" "10V 10%"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25702,7 +27082,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25713,7 +27093,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25724,7 +27104,7 @@
 			)
 		)
 		(property "Dist1#" "311-1939-1-ND"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25735,7 +27115,7 @@
 			)
 		)
 		(property "Dist2" "none"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25746,7 +27126,7 @@
 			)
 		)
 		(property "Dist2#" ""
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25757,7 +27137,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25768,7 +27148,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25779,7 +27159,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25790,7 +27170,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25801,7 +27181,7 @@
 			)
 		)
 		(property "Modified" "2026-03-23 16:48:45"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25812,7 +27192,7 @@
 			)
 		)
 		(property "FP" "C_1206"
-			(at 308.61 237.49 0)
+			(at 290.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25839,7 +27219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 204.47 0)
+		(at 323.85 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25850,7 +27230,7 @@
 		(fields_autoplaced yes)
 		(uuid "2958f077-11e9-4f75-a8d9-ab0e22d62aad")
 		(property "Reference" "#PWR0146"
-			(at 341.63 210.82 0)
+			(at 323.85 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25861,7 +27241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 341.63 208.6031 0)
+			(at 323.85 206.0631 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25872,7 +27252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 204.47 0)
+			(at 323.85 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25883,7 +27263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 204.47 0)
+			(at 323.85 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25894,7 +27274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 204.47 0)
+			(at 323.85 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25918,7 +27298,7 @@
 	)
 	(symbol
 		(lib_id "db:capacitor/01.018.0025.0001")
-		(at 328.93 182.88 90)
+		(at 311.15 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25929,7 +27309,7 @@
 		(fields_autoplaced yes)
 		(uuid "2acc7a73-8f24-4687-87fc-eb7bcc526e93")
 		(property "Reference" "C114"
-			(at 328.93 177.529 90)
+			(at 311.15 174.989 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25939,7 +27319,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 328.93 179.9533 90)
+			(at 311.15 177.4133 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25949,7 +27329,7 @@
 			)
 		)
 		(property "Footprint" "passive:C_0603"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25960,7 +27340,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB104.pdf"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25971,7 +27351,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25982,7 +27362,7 @@
 			)
 		)
 		(property "Category" "capacitor"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25993,7 +27373,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26004,7 +27384,7 @@
 			)
 		)
 		(property "Series" "CC-X7R"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26015,7 +27395,7 @@
 			)
 		)
 		(property "MFR#" "CC0603KRX7R7BB104"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26026,7 +27406,7 @@
 			)
 		)
 		(property "Rating" "16V 10%"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26037,7 +27417,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26048,7 +27428,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26059,7 +27439,7 @@
 			)
 		)
 		(property "Dist1#" "311-1088-1-ND"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26070,7 +27450,7 @@
 			)
 		)
 		(property "Dist2" "none"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26081,7 +27461,7 @@
 			)
 		)
 		(property "Dist2#" ""
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26092,7 +27472,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26103,7 +27483,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26114,7 +27494,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26125,7 +27505,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26136,7 +27516,7 @@
 			)
 		)
 		(property "Modified" "2026-03-22 17:08:21"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26147,7 +27527,7 @@
 			)
 		)
 		(property "FP" "C_0603"
-			(at 328.93 182.88 0)
+			(at 311.15 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27068,7 +28448,7 @@
 	)
 	(symbol
 		(lib_id "db:capacitor/01.018.0025.0001")
-		(at 350.52 186.69 180)
+		(at 332.74 184.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27079,7 +28459,7 @@
 		(fields_autoplaced yes)
 		(uuid "338df1b7-ffb1-45be-980b-21b5bd4161f3")
 		(property "Reference" "C115"
-			(at 352.4885 185.4778 0)
+			(at 334.7085 182.9378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27090,7 +28470,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 352.4885 187.9021 0)
+			(at 334.7085 185.3621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27101,7 +28481,7 @@
 			)
 		)
 		(property "Footprint" "passive:C_0603"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27112,7 +28492,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB104.pdf"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27123,7 +28503,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27134,7 +28514,7 @@
 			)
 		)
 		(property "Category" "capacitor"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27145,7 +28525,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27156,7 +28536,7 @@
 			)
 		)
 		(property "Series" "CC-X7R"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27167,7 +28547,7 @@
 			)
 		)
 		(property "MFR#" "CC0603KRX7R7BB104"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27178,7 +28558,7 @@
 			)
 		)
 		(property "Rating" "16V 10%"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27189,7 +28569,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27200,7 +28580,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27211,7 +28591,7 @@
 			)
 		)
 		(property "Dist1#" "311-1088-1-ND"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27222,7 +28602,7 @@
 			)
 		)
 		(property "Dist2" "none"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27233,7 +28613,7 @@
 			)
 		)
 		(property "Dist2#" ""
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27244,7 +28624,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27255,7 +28635,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27266,7 +28646,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27277,7 +28657,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27288,7 +28668,7 @@
 			)
 		)
 		(property "Modified" "2026-03-22 17:08:21"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27299,7 +28679,7 @@
 			)
 		)
 		(property "FP" "C_0603"
-			(at 350.52 186.69 0)
+			(at 332.74 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27669,7 +29049,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 341.63 177.8 0)
+		(at 323.85 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27680,7 +29060,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b9416f4-5a19-4865-9d37-602e8161c786")
 		(property "Reference" "#PWR0145"
-			(at 341.63 181.61 0)
+			(at 323.85 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27691,7 +29071,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 341.63 173.6669 0)
+			(at 323.85 171.1269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27701,7 +29081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 177.8 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27712,7 +29092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 177.8 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27723,7 +29103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 341.63 177.8 0)
+			(at 323.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28096,6 +29476,264 @@
 		)
 	)
 	(symbol
+		(lib_id "db:capacitor/01.018.0025.0005")
+		(at 346.71 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44eb1ba2-52ee-4401-bf3d-0d118b4deab9")
+		(property "Reference" "C4"
+			(at 348.6785 175.3178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 348.6785 177.7421 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passive:C_0603"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passiveDS_CC0603KRX7R0BB101.pdf"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "capacitor"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "C_0603"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "CC0603KRX7R0BB101"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "CC-X7R"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "311-4048-1-ND"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-04-01 10:52:36"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V 10%"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 346.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2d3fcd44-6119-4efa-8694-1b2f68b4ff78")
+		)
+		(pin "1"
+			(uuid "4019f7c1-a99a-441f-afbd-22bf21f53793")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 165.1 0)
 		(unit 1)
@@ -28176,7 +29814,7 @@
 	)
 	(symbol
 		(lib_id "db:ic/07.010.0033.0001")
-		(at 328.93 198.12 0)
+		(at 311.15 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28187,7 +29825,7 @@
 		(fields_autoplaced yes)
 		(uuid "489d9b87-a75a-44f0-ba53-d96da65ca4c6")
 		(property "Reference" "U107"
-			(at 328.93 187.7525 0)
+			(at 311.15 185.2125 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28197,7 +29835,7 @@
 			)
 		)
 		(property "Value" "TJA1042BT/0Z"
-			(at 328.93 190.1768 0)
+			(at 311.15 187.6368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28207,7 +29845,7 @@
 			)
 		)
 		(property "Footprint" "package:SOT96-1"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28218,7 +29856,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}ic/DS_NXP_TJA1042.pdf"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28229,7 +29867,7 @@
 			)
 		)
 		(property "Description" "CAN Transceiver"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28240,7 +29878,7 @@
 			)
 		)
 		(property "Category" "ic"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28251,7 +29889,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28262,7 +29900,7 @@
 			)
 		)
 		(property "Series" "TJA"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28273,7 +29911,7 @@
 			)
 		)
 		(property "MFR#" "TJA1042BT/0Z"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28284,7 +29922,7 @@
 			)
 		)
 		(property "Rating" "5 mbps"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28295,7 +29933,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28306,7 +29944,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28317,7 +29955,7 @@
 			)
 		)
 		(property "Dist1#" "568-TJA1042BT/0ZCT-ND"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28328,7 +29966,7 @@
 			)
 		)
 		(property "Dist2" "mouser"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28339,7 +29977,7 @@
 			)
 		)
 		(property "Dist2#" "771-TJA1042BT/0Z"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28350,7 +29988,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28361,7 +29999,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28372,7 +30010,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28383,7 +30021,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28394,7 +30032,7 @@
 			)
 		)
 		(property "Modified" "2026-03-23 17:55:44"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28405,7 +30043,7 @@
 			)
 		)
 		(property "FP" "SOT96-1"
-			(at 328.93 198.12 0)
+			(at 311.15 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31187,7 +32825,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 308.61 229.87 0)
+		(at 290.83 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31198,7 +32836,7 @@
 		(fields_autoplaced yes)
 		(uuid "69318b83-5996-46c7-8465-43fadde05629")
 		(property "Reference" "#PWR0144"
-			(at 308.61 233.68 0)
+			(at 290.83 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31209,7 +32847,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 308.61 225.7369 0)
+			(at 290.83 223.1969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31219,7 +32857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 229.87 0)
+			(at 290.83 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31230,7 +32868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 229.87 0)
+			(at 290.83 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31241,7 +32879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 308.61 229.87 0)
+			(at 290.83 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32111,6 +33749,264 @@
 		)
 	)
 	(symbol
+		(lib_id "db:capacitor/01.018.0025.0005")
+		(at 346.71 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723249ca-a678-4f6f-b187-78ad12e7b6e8")
+		(property "Reference" "C3"
+			(at 348.6785 198.1778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 348.6785 200.6021 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passive:C_0603"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passiveDS_CC0603KRX7R0BB101.pdf"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "capacitor"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "C_0603"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "CC0603KRX7R0BB101"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "CC-X7R"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "311-4048-1-ND"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-04-01 10:52:36"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V 10%"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 346.71 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49501bd4-86fe-40c1-936e-af00008b2561")
+		)
+		(pin "1"
+			(uuid "d35192b9-f8d0-4a8b-899d-5aa15faec7e0")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "db:resistor/00.018.0009.0018")
 		(at 80.01 66.04 0)
 		(unit 1)
@@ -32787,7 +34683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 250.19 0)
+		(at 290.83 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32798,7 +34694,7 @@
 		(fields_autoplaced yes)
 		(uuid "80f91be3-c3a9-44ea-9df4-d29446a98b77")
 		(property "Reference" "#PWR0143"
-			(at 308.61 256.54 0)
+			(at 290.83 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32809,7 +34705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 254.3231 0)
+			(at 290.83 251.7831 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32820,7 +34716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 250.19 0)
+			(at 290.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32831,7 +34727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 250.19 0)
+			(at 290.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32842,7 +34738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 250.19 0)
+			(at 290.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32859,6 +34755,85 @@
 			(project "YetiX-A_DevBoard"
 				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84cb0084-765b-4d20-a5e6-543b8f55e463")
+		(property "Reference" "#PWR0160"
+			(at 355.6 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.6 194.6331 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987d3aea-31c8-467c-bf1a-4788a209eb55")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -33698,7 +35673,7 @@
 	)
 	(symbol
 		(lib_id "db:connector/09.007.0032.0001")
-		(at 353.06 237.49 0)
+		(at 335.28 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33709,7 +35684,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a39ec2e-6a68-4719-8ac4-d12c054c9a9c")
 		(property "Reference" "U106"
-			(at 361.315 235.0078 0)
+			(at 343.535 232.4678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33720,7 +35695,7 @@
 			)
 		)
 		(property "Value" "1051620001"
-			(at 361.315 237.4321 0)
+			(at 343.535 234.8921 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33731,7 +35706,7 @@
 			)
 		)
 		(property "Footprint" "connector:1051620001"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33742,7 +35717,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}connector/DS_MOLEX_1051620001.pdf"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33753,7 +35728,7 @@
 			)
 		)
 		(property "Description" "Micro SD Connector"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33764,7 +35739,7 @@
 			)
 		)
 		(property "Category" "connector"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33775,7 +35750,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33786,7 +35761,7 @@
 			)
 		)
 		(property "Series" "105162"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33797,7 +35772,7 @@
 			)
 		)
 		(property "MFR#" "1051620001"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33808,7 +35783,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33819,7 +35794,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33830,7 +35805,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33841,7 +35816,7 @@
 			)
 		)
 		(property "Dist1#" "WM14405CT-ND"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33852,7 +35827,7 @@
 			)
 		)
 		(property "Dist2" "mouser"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33863,7 +35838,7 @@
 			)
 		)
 		(property "Dist2#" "538-105027-0001"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33874,7 +35849,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33885,7 +35860,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33896,7 +35871,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33907,7 +35882,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33918,7 +35893,7 @@
 			)
 		)
 		(property "Modified" "2026-03-23 16:28:59"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33929,7 +35904,7 @@
 			)
 		)
 		(property "FP" "1051620001"
-			(at 353.06 237.49 0)
+			(at 335.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35196,7 +37171,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 250.19 0)
+		(at 304.8 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35207,7 +37182,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac5255e1-4b5b-4658-9b08-c8fc513f1e91")
 		(property "Reference" "#PWR0142"
-			(at 322.58 256.54 0)
+			(at 304.8 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35218,7 +37193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 322.58 254.3231 0)
+			(at 304.8 251.7831 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35229,7 +37204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 250.19 0)
+			(at 304.8 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35240,7 +37215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 250.19 0)
+			(at 304.8 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35251,7 +37226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 250.19 0)
+			(at 304.8 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38020,6 +39995,264 @@
 			(project "YetiX-A_DevBoard"
 				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "db:capacitor/01.018.0025.0001")
+		(at 355.6 187.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d18597bf-8d02-4442-b758-a99ad09aed1b")
+		(property "Reference" "C117"
+			(at 357.5685 186.7478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 357.5685 189.1721 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passive:C_0603"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603KRX7R7BB104.pdf"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "capacitor"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "CC-X7R"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "CC0603KRX7R7BB104"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "16V 10%"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "311-1088-1-ND"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-03-22 17:08:21"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "C_0603"
+			(at 355.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19d88a85-3dfe-4bff-bd0e-ad6e5d3bfdbc")
+		)
+		(pin "2"
+			(uuid "2e09dc5a-fe02-4f80-a0ee-0cfbed512603")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -41695,7 +43928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 350.52 190.5 0)
+		(at 332.74 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41706,7 +43939,7 @@
 		(fields_autoplaced yes)
 		(uuid "f212a21d-61bb-4bec-aaff-fd18a99d19e6")
 		(property "Reference" "#PWR0148"
-			(at 350.52 196.85 0)
+			(at 332.74 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41717,7 +43950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 350.52 194.6331 0)
+			(at 332.74 192.0931 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41728,7 +43961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 190.5 0)
+			(at 332.74 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41739,7 +43972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 190.5 0)
+			(at 332.74 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41750,7 +43983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 190.5 0)
+			(at 332.74 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41767,6 +44000,85 @@
 			(project "YetiX-A_DevBoard"
 				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 346.71 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c8e70b-dcea-4d29-9874-375d26991a76")
+		(property "Reference" "#PWR0159"
+			(at 346.71 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 183.2031 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eb10340-219b-4061-a402-e4d798e240d8")
+		)
+		(instances
+			(project "YetiX-A_DevBoard"
+				(path "/eea0adbd-8914-4b95-b546-60ed31ac58f3"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)

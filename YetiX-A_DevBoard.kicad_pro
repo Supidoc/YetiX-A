@@ -238,7 +238,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.1"
+      "sch_revision": "0.0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -815,7 +815,7 @@
         "uuid": "eea0adbd-8914-4b95-b546-60ed31ac58f3"
       }
     ],
-    "used_designators": "J2",
+    "used_designators": "R3-4,#PWR158-160,C3-5,C117,J2",
     "variants": [
       {
         "name": "Castellation"
