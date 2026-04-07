@@ -31,7 +31,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -45,3 +44,5 @@ FabData_JLCPCB.kicad_jobset
 fabrication-toolkit-options.json
 ibom.config.ini
 production/
+*.*#
+FabData/*/*.csv
